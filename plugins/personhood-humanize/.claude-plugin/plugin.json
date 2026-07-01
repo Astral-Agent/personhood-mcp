@@ -1,0 +1,12 @@
+{
+  "name": "personhood-humanize",
+  "displayName": "Personhood Humanize",
+  "version": "0.1.0",
+  "description": "Rewrite AI-generated text to sound human. Bundles the hosted Personhood MCP connector (humanize, list_personas, get_balance) and a skill that triggers on humanize intents.",
+  "author": {
+    "name": "Personhood"
+  },
+  "homepage": "https://personhood-backend.onrender.com",
+  "keywords": ["humanize", "ai-detector", "writing", "persona", "mcp"],
+  "mcpServers": "./.mcp.json"
+}

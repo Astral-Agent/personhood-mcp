@@ -1,0 +1,13 @@
+{
+  "name": "personhood",
+  "owner": {
+    "name": "Personhood"
+  },
+  "plugins": [
+    {
+      "name": "personhood-humanize",
+      "source": "./plugins/personhood-humanize",
+      "description": "Humanize AI-generated text via the hosted Personhood MCP server — removes AI tells and applies a persona voice. Bundles the remote /mcp connector plus a humanize skill."
+    }
+  ]
+}
