@@ -1,11 +1,10 @@
 # Personhood Claude Code plugin + marketplace
 
 This repo is a self-contained Claude Code **plugin marketplace**. It ships one
-plugin, `personhood-humanize`, which bundles:
-
-- the hosted **Personhood MCP connector** (remote streamable-HTTP server at
-  `https://personhood-backend.onrender.com/mcp`), and
-- a **skill** that triggers on humanize intents and documents usage.
+plugin, `personhood-humanize`, which bundles the hosted **Personhood MCP
+connector** (remote streamable-HTTP server at
+`https://personhood-backend.onrender.com/mcp`) and a **skill** that fires on
+humanize intents and documents how to use it.
 
 ## Layout
 

@@ -6,7 +6,7 @@
   "author": {
     "name": "Personhood"
   },
-  "homepage": "https://personhood-backend.onrender.com",
+  "homepage": "https://personhood-app.vercel.app",
   "keywords": ["humanize", "ai-detector", "writing", "persona", "mcp"],
   "mcpServers": "./.mcp.json"
 }
