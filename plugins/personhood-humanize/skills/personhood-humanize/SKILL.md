@@ -45,7 +45,7 @@ Create the key at https://personhood-app.vercel.app in account settings. Restart
 ## Connect from other MCP clients (Cursor, etc.)
 
 ```bash
-claude mcp add --transport http personhood https://personhood-backend.onrender.com/mcp \
+claude mcp add --transport http personhood https://personhood-backend.onrender.com/mcp/ \
   --header "Authorization: Bearer <your-personhood-api-key>"
 ```
 
@@ -56,7 +56,7 @@ Or as a JSON entry (`.mcp.json` / `mcp.json`):
   "mcpServers": {
     "personhood": {
       "type": "http",
-      "url": "https://personhood-backend.onrender.com/mcp",
+      "url": "https://personhood-backend.onrender.com/mcp/",
       "headers": {
         "Authorization": "Bearer <your-personhood-api-key>"
       }

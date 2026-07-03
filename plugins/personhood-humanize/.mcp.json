@@ -2,7 +2,7 @@
   "mcpServers": {
     "personhood": {
       "type": "http",
-      "url": "https://personhood-backend.onrender.com/mcp",
+      "url": "https://personhood-backend.onrender.com/mcp/",
       "headers": {
         "Authorization": "Bearer ${PERSONHOOD_API_KEY}"
       }
